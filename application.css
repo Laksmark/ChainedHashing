@@ -1,0 +1,104 @@
+/* JavaFX CSS - 
+    
+*/
+.scroll-pane 
+{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box ,rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.button 
+{
+    -fx-background-radius: 30;
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%,
+        radius 200%,
+        #e6e6e6 45%,
+        rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.button:hover
+{
+-fx-background-color: #c3c4c4,
+    linear-gradient(#d6d6d6 50%, black 100%),
+    radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+.menu 
+{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+}
+.menu:hover
+{
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, black 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+.menu:showing
+{
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, black 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+.menu-bar 
+{
+    -fx-background-radius: 30;
+    -fx-text-fill: black;
+}
+.menu-item 
+{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.menu-item:hover
+{
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, black 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+.menu-button:showing
+{
+    -fx-background-color: #c3c4c4,linear-gradient(#d6d6d6 50%, black 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+.menu-button:hover
+{
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, black 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+.menu-item
+{
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}
+
+.text-field 
+{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.context-menu 
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,2,2;
+    -fx-text-fill: black;
+}
+.label 
+{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
